@@ -79,4 +79,99 @@ To keep this migration realistic and finishable, we explicitly avoid:
 
 Instead, we choose:
 
-- **Logical migration ove**
+- **Logical migration over physical where it makes sense**
+
+- **Docker Compose over Kubernetes**
+
+- **Snapshots and backups over complex HA**
+
+- **Clarity over completeness**
+
+---
+
+## What this playbook gives you
+
+- A **clear migration path** that fits into real life
+
+- Explicit scope boundaries to prevent overengineering
+
+- Practical decision-making context:
+  - why Proxmox
+  - why Docker
+  - why not Kubernetes (yet)
+
+- Real failure points and recovery strategies
+
+- Checklists to know when you are actually done
+
+- Guidance on **how to use AI effectively without getting lost**
+
+---
+
+## How AI is used here
+
+AI is treated as a **tool**, not a driver.
+
+AI is used for:
+
+- debugging
+
+- log analysis
+
+- explaining unfamiliar errors
+
+AI is **not** used for:
+
+- architecture decisions
+
+- scope expansion
+
+- replacing engineering judgment
+
+This playbook provides:
+
+- structure
+
+- constraints
+
+- decision context  
+
+AI fills in details **inside those boundaries**.
+
+---
+
+## Definition of “Done”
+
+This migration is considered complete when:
+
+- The legacy VMware setup is fully documented
+
+- Target infrastructure runs on Proxmox
+
+- Core services run in Docker containers
+
+- Data survives container restarts
+
+- Snapshots and backups are tested
+
+- You can destroy and recover the system without panic
+
+- You understand **why** this setup exists
+
+Not when it is perfect.  
+When it is **under control**.
+
+---
+
+## Philosophy
+
+This playbook is built on a simple belief:
+
+> **Most migrations fail not because they are too hard, but because there is no clear path to finish.**
+
+This repository documents that path.
+
+---
+
+## Repository structure (WIP)
+
