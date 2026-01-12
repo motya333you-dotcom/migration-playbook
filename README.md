@@ -175,3 +175,26 @@ This repository documents that path.
 
 ## Repository structure (WIP)
 
+.
+├── README.md
+├── docs/
+│ ├── 00-introduction.md
+│ ├── 01-legacy-snapshot.md
+│ ├── 02-target-architecture.md
+│ ├── 03-proxmox-setup.md
+│ ├── 04-migration.md
+│ ├── 05-docker-services.md
+│ ├── 06-backup-recovery.md
+│ ├── 07-networking-monitoring.md
+│ └── 99-lessons-learned.md
+├── diagrams/
+├── examples/
+└── prompts/
+
+---
+
+## Status
+
+This is a **living document**.  
+The playbook is built incrementally, chapter by chapter, based on real hands-on work.
+
